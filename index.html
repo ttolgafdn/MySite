@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tolga Fidan — Kısa Blog</title>
+  <style>
+    :root{
+      --blue:#1766c6;
+      --bg:#f4f6f8;
+      --card:#ffffff;
+      --muted:#6b7280;
+      --maxw:900px;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      min-height:100vh;
+      background:var(--bg);
+      color:#0b1220;
+      line-height:1.5;
+      padding-bottom:40px;
+    }
+
+    /* Üst mavi alan */
+    .topbar{
+      background:linear-gradient(180deg,var(--blue),#0f5ab0);
+      color:#fff;
+      padding:28px 16px;
+      box-shadow:0 4px 12px rgba(15,23,42,0.08);
+    }
+    .wrap{ max-width:var(--maxw); margin:0 auto; }
+
+    .topbar h1{ margin:0; font-size:20px; letter-spacing:0.2px; }
+    .topbar p{ margin:6px 0 0; opacity:0.95; font-size:13px; }
+
+    /* Ana kart */
+    .card{
+      background:var(--card);
+      max-width:var(--maxw);
+      margin:-28px auto 20px;
+      padding:20px;
+      border-radius:10px;
+      box-shadow: 0 8px 24px rgba(15,23,42,0.06);
+    }
+
+    p{ margin:0 0 12px; color:#111827; }
+
+    .meta{ color:var(--muted); font-size:13px; margin-bottom:14px; }
+
+    /* Küçük ekran */
+    @media (max-width:640px){
+      .topbar{ padding:20px 12px; }
+      .card{ margin:-20px 12px 16px; padding:14px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="wrap">
+        <img src="tolgafidanresim.jpeg" alt="Tolga Fidan" style="height: 200px; vertical-align:middle; margin-right:10px;">
+      <h1>Tolga FİDAN — Kısa Blog</h1>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="card" aria-label="Blog içeriği">
+      <div>
+        <div class="meta">Aksaray Üniversitesi</div>
+      </div>
+
+      <div class="content" style="margin-top:14px;">
+        <h3>Merhaba,</h3>
+
+        <p>
+          Ben Tolga FİDAN. Aksaray Üniversitesi’nde Yazılım Mühendisliği bölümünde öğrenim görmekteyim 2.Sınıfım. Ankara'da ikamet etmekteyim.
+        </p>
+
+        <h3>Eğitim Ve Teknik Yetenekler</h3>
+        <p>
+          Üniversite eğitimim süresince yazılım geliştirme, algoritma analizi, veri yapıları gibi temel dersler alıyorum. Hâlihazırda özellikle C#, Java, Python, SQL, web geliştirme vb. üzerine çalışmalar yapıyorum.
+        </p>
+        <p>
+          Proje kapsamında Veri tabanı SQL kullanarak kendi geliştirdiğim "Mini Kasa / Stok Takip Programı" var. Bu proje bana yeni şeyler öğretti ve teknik yeteneklerimi pekiştirdi.
+        </p>
+
+        <p>
+          Ankara Üniversitesi Yönetim Bilişim Sistemleri bölümünde de 1.sınıf olarak eğitim görmekteyim.
+        </p>
+
+        <p>
+          Ayrıca hali hazırda B1 seviye ingilizceye sahibim ve başlangıç seviye almanca dil eğitimi alıyorum.
+        </p>
+
+        <h3>İlgi Alanları ve Hobiler</h3>
+        <p>
+          Akademik çalışmaların yanı sıra yazılım dünyasındaki gelişmeleri takip etmeyi, yeni teknolojileri öğrenmeyi severim. Boş zamanlarımda anime izlemek ve müzik dinleyip yürüyüş yapmak gibi aktivitelerle zaman geçiririm. Ayrıca topluluk etkinliklerine katılmak ve bilgi paylaşımında bulunmak beni motive eder. Şuanda da Üniversitemde "Teknoloji Atolyesi" isimli bir topluluğun yönetim kurulunda etkinlikler düzenliyorum.
+        </p>
+
+        <h3>Kariyer Hedefleri ve Vizyon</h3>
+        <p>
+          İleride yazılım mühendisliği alanında uzmanlaşmayı ve yenilikçi projelere imza atmayı amaçlıyorum. Özellikle oyun geliştirme, yapay zeka, mobil uygulamalar, web uygulamaları, sistem mimarisi vs. alanlarında çalışmak istiyorum. Amacım; hem teknik becerilerimi sürekli geliştirmek hem de topluma faydası dokunan projeler üretmek.
+        </p>
+
+        <h3>Kapanış</h3>
+        <p>
+          Blogumu okuduğunuz için teşekkür ederim. Gelecek süreçte hem akademik hem teknik olarak ilerleyip, değerli katkılar sunmayı umut ediyorum.
+        </p>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
